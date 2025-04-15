@@ -1,0 +1,20 @@
+project: Pegasus
+thread: server
+author: gptops
+phase: vector-db-prep
+last_commit: 5a9bad8
+status:
+  server: synced
+  local: behind
+  github: synced
+agents:
+  - name: serVAgent
+    status: planned
+  - name: wingman
+    status: active
+next_tasks:
+  - setup: vector DB container
+  - action: implement GPT Actions Read
+notes: |
+  Auto-generated status by Wingman CLI helper.
+  Thread updated: server, phase: vector-db-prep
