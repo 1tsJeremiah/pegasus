@@ -1,0 +1,5 @@
+alias edit='rsub -f'
+alias editconf='sudo rsub -f'
+alias zshrc='edit ~/.zshrc'
+alias envfile='edit ~/gpt-api/.env'
+alias agent='edit ~/gpt-api/index.js'
