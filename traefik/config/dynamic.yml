@@ -1,0 +1,31 @@
+http:
+  routers:
+    dashboard:
+      rule: "Host(`traefik.1tsjeremiah.com`)"
+      entryPoints:
+        - websecure
+      service: api@internal
+      middlewares:
+        - dashboard-auth
+      tls:
+        certResolver: letsencrypt
+
+    gpt-router:
+      rule: "Host(`gpt.1tsjeremiah.com`)"
+      entryPoints:
+        - websecure
+      service: gpt-service
+      tls:
+        certResolver: letsencrypt
+
+  middlewares:
+    dashboard-auth:
+      basicAuth:
+        users:
+          - "$apr1$6VGtBkyR$CbdquQmGFBPBJQ9yfD2Wj0"
+
+  services:
+    gpt-service:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:3000"

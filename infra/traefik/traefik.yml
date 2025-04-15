@@ -1,0 +1,25 @@
+entryPoints:
+  web:
+    address: ":80"
+  websecure:
+    address: ":443"
+
+api:
+  dashboard: true
+  insecure: false
+
+log:
+  level: DEBUG
+
+providers:
+  file:
+    filename: "/home/gptops/infra/traefik/acme.json"
+    watch: true
+
+certificatesResolvers:
+  letsencrypt:
+    acme:
+      email: jlm501mailme@gmail.com
+      storage: "/home/gptops/infra/traefik/dynamic.yml"
+      httpChallenge:
+        entryPoint: web

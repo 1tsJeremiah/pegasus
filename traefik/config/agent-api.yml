@@ -1,0 +1,15 @@
+http:
+  routers:
+    agent-api:
+      rule: "Host(`agent.1tsjeremiah.com`)"
+      entryPoints:
+        - websecure
+      service: agent-api
+      tls:
+        certResolver: letsencrypt
+
+  services:
+    agent-api:
+      loadBalancer:
+        servers:
+          - url: "http://localhost:3042"

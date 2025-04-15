@@ -1,0 +1,157 @@
+openapi: 3.1.0
+info:
+  title: Pegasus GPT API
+  version: 1.0.0
+  description: Full-stack system management API for Pegasus Wingbot
+
+servers:
+  - url: https://gpt.1tsjeremiah.com
+
+paths:
+  /file/read:
+    post:
+      operationId: readFile
+      summary: Read a file from Pegasus knowledge base
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                filename:
+                  type: string
+                  example: chatdocs/wingman.md
+              required: [filename]
+      responses:
+        '200':
+          description: File content
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  content:
+                    type: string
+
+  /file/write:
+    post:
+      operationId: writeFile
+      summary: Write or overwrite a file, with auto-folder creation
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                filename:
+                  type: string
+                content:
+                  type: string
+              required: [filename, content]
+      responses:
+        '200':
+          description: Write result
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+
+  /file/list:
+    get:
+      operationId: listFiles
+      summary: List files in knowledge base root
+      responses:
+        '200':
+          description: File list
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  files:
+                    type: array
+                    items:
+                      type: string
+
+  /run:
+    post:
+      operationId: runCommand
+      summary: Run a safe terminal command
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                cmd:
+                  type: string
+                  enum: ["uptime", "df -h", "whoami", "ls /home/gptops"]
+              required: [cmd]
+      responses:
+        '200':
+          description: Command output
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  result:
+                    type: string
+
+  /status:
+    get:
+      operationId: getSystemStatus
+      summary: Report uptime, memory and disk usage
+      responses:
+        '200':
+          description: System status
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  uptime:
+                    type: string
+                  memory:
+                    type: string
+                  disk:
+                    type: string
+
+  /gpt/chat:
+    post:
+      operationId: chatGpt
+      summary: Send a message to OpenAI GPT model
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                prompt:
+                  type: string
+                  example: "Summarize this week's server activity."
+              required: [prompt]
+      responses:
+        '200':
+          description: GPT response
+          content:
+            text/plain:
+              schema:
+                type: string
+
+components:
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+  schemas: {}
+
+security:
+  - bearerAuth: []

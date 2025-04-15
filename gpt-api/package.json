@@ -1,0 +1,23 @@
+{
+  "name": "gptops",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "openai": "^4.92.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}

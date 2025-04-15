@@ -1,0 +1,15 @@
+http:
+  routers:
+    traefik-dashboard:
+      rule: Host(`traefik.1tsjeremiah.com`)
+      entryPoints:
+        - web
+      service: api@internal
+      middlewares:
+        - dashboard-auth
+
+  middlewares:
+    dashboard-auth:
+      basicAuth:
+        users:
+          - "$apr1$6VGtBkyR$CbdquQmGFBPBJQ9yfD2Wj0"

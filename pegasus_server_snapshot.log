@@ -1,0 +1,716 @@
+🔍 Git Status:
+
+🔍 Git Tracked Files:
+
+📁 Directory Tree (depth=3):
+.
+├── .bash_history
+├── .bashrc
+├── .cache
+│   ├── gitstatus
+│   │   └── gitstatusd-linux-x86_64
+│   ├── p10k-dump-gptops.zsh
+│   ├── p10k-dump-gptops.zsh.zwc
+│   ├── p10k-gptops
+│   │   ├── prompt-12
+│   │   ├── prompt-15
+│   │   ├── prompt-19
+│   │   ├── prompt-20
+│   │   ├── prompt-26
+│   │   ├── prompt-27
+│   │   ├── prompt-47
+│   │   ├── prompt-5
+│   │   ├── prompt-58
+│   │   └── prompt-71
+│   ├── p10k-instant-prompt-gptops.zsh
+│   ├── p10k-instant-prompt-gptops.zsh.zwc
+│   └── pip
+│       ├── http
+│       ├── http-v2
+│       └── selfcheck
+├── .config
+│   ├── gh
+│   │   ├── config.yml
+│   │   └── hosts.yml
+│   ├── procps
+│   ├── simple-update-notifier
+│   │   └── nodemon.json
+│   └── systemd
+│       └── user
+├── .gitconfig
+├── gpt-api
+│   ├── 25.0.1
+│   ├── dev-notes
+│   │   └── backlog.md
+│   ├── ecosystem.config.js
+│   ├── .env
+│   ├── gpt-actions-knowledge-base
+│   │   ├── actions
+│   │   ├── apis
+│   │   ├── deployment
+│   │   ├── Instructions.md
+│   │   ├── prompts
+│   │   ├── README.md
+│   │   ├── security
+│   │   ├── testing
+│   │   ├── utils
+│   │   └── wingman
+│   ├── gpt_agent.py
+│   ├── index.js
+│   ├── openapi.yaml
+│   ├── package.json
+│   ├── package-lock.json
+│   └── test-server.js
+├── infra
+│   └── traefik
+│       ├── acme.json
+│       ├── dynamic.yml
+│       ├── traefik.service
+│       └── traefik.yml
+├── .lesshst
+├── .local
+│   ├── bin
+│   │   ├── distro
+│   │   ├── dotenv
+│   │   ├── httpx
+│   │   ├── markdown-it
+│   │   ├── openai
+│   │   ├── p10k -> /home/gptops/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
+│   │   ├── pygmentize
+│   │   └── tqdm
+│   └── lib
+│       └── python3.9
+├── .npm
+│   ├── _cacache
+│   │   ├── content-v2
+│   │   ├── index-v5
+│   │   └── tmp
+│   ├── _logs
+│   │   ├── 2025-04-08T05_14_22_038Z-debug-0.log
+│   │   ├── 2025-04-08T05_15_16_986Z-debug-0.log
+│   │   ├── 2025-04-08T05_15_35_682Z-debug-0.log
+│   │   ├── 2025-04-08T06_30_58_346Z-debug-0.log
+│   │   ├── 2025-04-08T08_04_04_048Z-debug-0.log
+│   │   ├── 2025-04-10T07_56_43_931Z-debug-0.log
+│   │   ├── 2025-04-10T07_56_45_225Z-debug-0.log
+│   │   ├── 2025-04-10T08_15_49_785Z-debug-0.log
+│   │   ├── 2025-04-10T08_20_35_926Z-debug-0.log
+│   │   ├── 2025-04-10T08_22_29_920Z-debug-0.log
+│   │   └── 2025-04-10T08_23_11_242Z-debug-0.log
+│   ├── _npx
+│   │   └── 0989021c841cf7b6
+│   └── _update-notifier-last-checked
+├── .oh-my-zsh
+│   ├── cache
+│   │   ├── completions
+│   │   ├── .gitkeep
+│   │   ├── grep-alias
+│   │   └── .zsh-update
+│   ├── CODE_OF_CONDUCT.md
+│   ├── CONTRIBUTING.md
+│   ├── custom
+│   │   ├── example.zsh
+│   │   ├── plugins
+│   │   └── themes
+│   ├── .devcontainer
+│   │   └── devcontainer.json
+│   ├── .editorconfig
+│   ├── .github
+│   │   ├── CODEOWNERS
+│   │   ├── dependabot.yml
+│   │   ├── dependencies.yml
+│   │   ├── FUNDING.yml
+│   │   ├── ISSUE_TEMPLATE
+│   │   ├── PULL_REQUEST_TEMPLATE.md
+│   │   └── workflows
+│   ├── .gitignore
+│   ├── .gitpod.Dockerfile
+│   ├── .gitpod.yml
+│   ├── lib
+│   │   ├── async_prompt.zsh
+│   │   ├── bzr.zsh
+│   │   ├── clipboard.zsh
+│   │   ├── cli.zsh
+│   │   ├── compfix.zsh
+│   │   ├── completion.zsh
+│   │   ├── correction.zsh
+│   │   ├── diagnostics.zsh
+│   │   ├── directories.zsh
+│   │   ├── functions.zsh
+│   │   ├── git.zsh
+│   │   ├── grep.zsh
+│   │   ├── history.zsh
+│   │   ├── key-bindings.zsh
+│   │   ├── misc.zsh
+│   │   ├── nvm.zsh
+│   │   ├── prompt_info_functions.zsh
+│   │   ├── spectrum.zsh
+│   │   ├── termsupport.zsh
+│   │   ├── tests
+│   │   ├── theme-and-appearance.zsh
+│   │   └── vcs_info.zsh
+│   ├── LICENSE.txt
+│   ├── log
+│   │   └── .gitkeep
+│   ├── oh-my-zsh.sh
+│   ├── plugins
+│   │   ├── 1password
+│   │   ├── aliases
+│   │   ├── alias-finder
+│   │   ├── ansible
+│   │   ├── ant
+│   │   ├── apache2-macports
+│   │   ├── arcanist
+│   │   ├── archlinux
+│   │   ├── arduino-cli
+│   │   ├── argocd
+│   │   ├── asdf
+│   │   ├── autoenv
+│   │   ├── autojump
+│   │   ├── autopep8
+│   │   ├── aws
+│   │   ├── azure
+│   │   ├── battery
+│   │   ├── bazel
+│   │   ├── bbedit
+│   │   ├── bedtools
+│   │   ├── bgnotify
+│   │   ├── bower
+│   │   ├── branch
+│   │   ├── brew
+│   │   ├── bridgetown
+│   │   ├── buf
+│   │   ├── bun
+│   │   ├── bundler
+│   │   ├── cabal
+│   │   ├── cake
+│   │   ├── cakephp3
+│   │   ├── capistrano
+│   │   ├── cask
+│   │   ├── catimg
+│   │   ├── celery
+│   │   ├── charm
+│   │   ├── chezmoi
+│   │   ├── chruby
+│   │   ├── chucknorris
+│   │   ├── cloudfoundry
+│   │   ├── codeclimate
+│   │   ├── coffee
+│   │   ├── colemak
+│   │   ├── colored-man-pages
+│   │   ├── colorize
+│   │   ├── command-not-found
+│   │   ├── common-aliases
+│   │   ├── compleat
+│   │   ├── composer
+│   │   ├── conda
+│   │   ├── conda-env
+│   │   ├── copybuffer
+│   │   ├── copyfile
+│   │   ├── copypath
+│   │   ├── cp
+│   │   ├── cpanm
+│   │   ├── dash
+│   │   ├── dbt
+│   │   ├── debian
+│   │   ├── deno
+│   │   ├── dircycle
+│   │   ├── direnv
+│   │   ├── dirhistory
+│   │   ├── dirpersist
+│   │   ├── dnf
+│   │   ├── dnote
+│   │   ├── docker
+│   │   ├── docker-compose
+│   │   ├── doctl
+│   │   ├── dotenv
+│   │   ├── dotnet
+│   │   ├── droplr
+│   │   ├── drush
+│   │   ├── eecms
+│   │   ├── emacs
+│   │   ├── ember-cli
+│   │   ├── emoji
+│   │   ├── emoji-clock
+│   │   ├── emotty
+│   │   ├── encode64
+│   │   ├── extract
+│   │   ├── eza
+│   │   ├── fabric
+│   │   ├── fancy-ctrl-z
+│   │   ├── fasd
+│   │   ├── fastfile
+│   │   ├── fbterm
+│   │   ├── fig
+│   │   ├── firewalld
+│   │   ├── flutter
+│   │   ├── fluxcd
+│   │   ├── fnm
+│   │   ├── foot
+│   │   ├── forklift
+│   │   ├── fossil
+│   │   ├── frontend-search
+│   │   ├── fzf
+│   │   ├── gas
+│   │   ├── gatsby
+│   │   ├── gcloud
+│   │   ├── geeknote
+│   │   ├── gem
+│   │   ├── genpass
+│   │   ├── gh
+│   │   ├── git
+│   │   ├── git-auto-fetch
+│   │   ├── git-commit
+│   │   ├── git-escape-magic
+│   │   ├── git-extras
+│   │   ├── gitfast
+│   │   ├── git-flow
+│   │   ├── git-flow-avh
+│   │   ├── github
+│   │   ├── git-hubflow
+│   │   ├── gitignore
+│   │   ├── git-lfs
+│   │   ├── git-prompt
+│   │   ├── glassfish
+│   │   ├── globalias
+│   │   ├── gnu-utils
+│   │   ├── golang
+│   │   ├── gpg-agent
+│   │   ├── gradle
+│   │   ├── grails
+│   │   ├── grc
+│   │   ├── grunt
+│   │   ├── gulp
+│   │   ├── hanami
+│   │   ├── hasura
+│   │   ├── helm
+│   │   ├── heroku
+│   │   ├── heroku-alias
+│   │   ├── history
+│   │   ├── history-substring-search
+│   │   ├── hitchhiker
+│   │   ├── hitokoto
+│   │   ├── homestead
+│   │   ├── httpie
+│   │   ├── invoke
+│   │   ├── ionic
+│   │   ├── ipfs
+│   │   ├── isodate
+│   │   ├── istioctl
+│   │   ├── iterm2
+│   │   ├── jake-node
+│   │   ├── jenv
+│   │   ├── jfrog
+│   │   ├── jhbuild
+│   │   ├── jira
+│   │   ├── jj
+│   │   ├── jruby
+│   │   ├── jsontools
+│   │   ├── juju
+│   │   ├── jump
+│   │   ├── k9s
+│   │   ├── kate
+│   │   ├── keychain
+│   │   ├── kind
+│   │   ├── kitchen
+│   │   ├── kitty
+│   │   ├── kn
+│   │   ├── knife
+│   │   ├── knife_ssh
+│   │   ├── kops
+│   │   ├── kubectl
+│   │   ├── kubectx
+│   │   ├── kube-ps1
+│   │   ├── lando
+│   │   ├── laravel
+│   │   ├── laravel4
+│   │   ├── laravel5
+│   │   ├── last-working-dir
+│   │   ├── lein
+│   │   ├── lighthouse
+│   │   ├── localstack
+│   │   ├── lol
+│   │   ├── lpass
+│   │   ├── lxd
+│   │   ├── macos
+│   │   ├── macports
+│   │   ├── magic-enter
+│   │   ├── man
+│   │   ├── marked2
+│   │   ├── marktext
+│   │   ├── mercurial
+│   │   ├── meteor
+│   │   ├── microk8s
+│   │   ├── minikube
+│   │   ├── mise
+│   │   ├── mix
+│   │   ├── mix-fast
+│   │   ├── mongo-atlas
+│   │   ├── mongocli
+│   │   ├── mosh
+│   │   ├── multipass
+│   │   ├── mvn
+│   │   ├── mysql-macports
+│   │   ├── n98-magerun
+│   │   ├── nanoc
+│   │   ├── nats
+│   │   ├── ng
+│   │   ├── ngrok
+│   │   ├── nmap
+│   │   ├── node
+│   │   ├── nodenv
+│   │   ├── nomad
+│   │   ├── npm
+│   │   ├── nvm
+│   │   ├── oc
+│   │   ├── octozen
+│   │   ├── opentofu
+│   │   ├── operator-sdk
+│   │   ├── otp
+│   │   ├── pass
+│   │   ├── paver
+│   │   ├── pep8
+│   │   ├── percol
+│   │   ├── per-directory-history
+│   │   ├── perl
+│   │   ├── perms
+│   │   ├── phing
+│   │   ├── pip
+│   │   ├── pipenv
+│   │   ├── pj
+│   │   ├── please
+│   │   ├── pm2
+│   │   ├── pod
+│   │   ├── podman
+│   │   ├── poetry
+│   │   ├── poetry-env
+│   │   ├── postgres
+│   │   ├── pow
+│   │   ├── powder
+│   │   ├── powify
+│   │   ├── pre-commit
+│   │   ├── procs
+│   │   ├── profiles
+│   │   ├── pyenv
+│   │   ├── pylint
+│   │   ├── python
+│   │   ├── qodana
+│   │   ├── qrcode
+│   │   ├── rails
+│   │   ├── rake
+│   │   ├── rake-fast
+│   │   ├── rand-quote
+│   │   ├── rbenv
+│   │   ├── rbfu
+│   │   ├── rbw
+│   │   ├── rclone
+│   │   ├── react-native
+│   │   ├── rebar
+│   │   ├── redis-cli
+│   │   ├── repo
+│   │   ├── ros
+│   │   ├── rsync
+│   │   ├── ruby
+│   │   ├── rust
+│   │   ├── rvm
+│   │   ├── safe-paste
+│   │   ├── salt
+│   │   ├── samtools
+│   │   ├── sbt
+│   │   ├── scala
+│   │   ├── scd
+│   │   ├── screen
+│   │   ├── scw
+│   │   ├── sdk
+│   │   ├── sfdx
+│   │   ├── sfffe
+│   │   ├── shell-proxy
+│   │   ├── shrink-path
+│   │   ├── sigstore
+│   │   ├── singlechar
+│   │   ├── skaffold
+│   │   ├── snap
+│   │   ├── spring
+│   │   ├── sprunge
+│   │   ├── ssh
+│   │   ├── ssh-agent
+│   │   ├── stack
+│   │   ├── starship
+│   │   ├── stripe
+│   │   ├── sublime
+│   │   ├── sublime-merge
+│   │   ├── sudo
+│   │   ├── supervisor
+│   │   ├── suse
+│   │   ├── svcat
+│   │   ├── svn
+│   │   ├── svn-fast-info
+│   │   ├── swiftpm
+│   │   ├── symfony
+│   │   ├── symfony2
+│   │   ├── symfony6
+│   │   ├── systemadmin
+│   │   ├── systemd
+│   │   ├── tailscale
+│   │   ├── taskwarrior
+│   │   ├── terminitor
+│   │   ├── term_tab
+│   │   ├── terraform
+│   │   ├── textastic
+│   │   ├── textmate
+│   │   ├── thefuck
+│   │   ├── themes
+│   │   ├── thor
+│   │   ├── tig
+│   │   ├── timer
+│   │   ├── timoni
+│   │   ├── tldr
+│   │   ├── tmux
+│   │   ├── tmux-cssh
+│   │   ├── tmuxinator
+│   │   ├── toolbox
+│   │   ├── torrent
+│   │   ├── transfer
+│   │   ├── tugboat
+│   │   ├── ubuntu
+│   │   ├── ufw
+│   │   ├── universalarchive
+│   │   ├── urltools
+│   │   ├── uv
+│   │   ├── vagrant
+│   │   ├── vagrant-prompt
+│   │   ├── vault
+│   │   ├── vim-interaction
+│   │   ├── vi-mode
+│   │   ├── virtualenv
+│   │   ├── virtualenvwrapper
+│   │   ├── volta
+│   │   ├── vscode
+│   │   ├── vundle
+│   │   ├── wakeonlan
+│   │   ├── watson
+│   │   ├── wd
+│   │   ├── web-search
+│   │   ├── wp-cli
+│   │   ├── xcode
+│   │   ├── yarn
+│   │   ├── yii
+│   │   ├── yii2
+│   │   ├── yum
+│   │   ├── z
+│   │   ├── zbell
+│   │   ├── zeus
+│   │   ├── zoxide
+│   │   ├── zsh-interactive-cd
+│   │   └── zsh-navigation-tools
+│   ├── .prettierrc
+│   ├── README.md
+│   ├── SECURITY.md
+│   ├── templates
+│   │   ├── minimal.zshrc
+│   │   └── zshrc.zsh-template
+│   ├── themes
+│   │   ├── 3den.zsh-theme
+│   │   ├── adben.zsh-theme
+│   │   ├── af-magic.zsh-theme
+│   │   ├── afowler.zsh-theme
+│   │   ├── agnoster.zsh-theme
+│   │   ├── alanpeabody.zsh-theme
+│   │   ├── amuse.zsh-theme
+│   │   ├── apple.zsh-theme
+│   │   ├── arrow.zsh-theme
+│   │   ├── aussiegeek.zsh-theme
+│   │   ├── avit.zsh-theme
+│   │   ├── awesomepanda.zsh-theme
+│   │   ├── bira.zsh-theme
+│   │   ├── blinks.zsh-theme
+│   │   ├── bureau.zsh-theme
+│   │   ├── candy-kingdom.zsh-theme
+│   │   ├── candy.zsh-theme
+│   │   ├── clean.zsh-theme
+│   │   ├── cloud.zsh-theme
+│   │   ├── crcandy.zsh-theme
+│   │   ├── crunch.zsh-theme
+│   │   ├── cypher.zsh-theme
+│   │   ├── dallas.zsh-theme
+│   │   ├── darkblood.zsh-theme
+│   │   ├── daveverwer.zsh-theme
+│   │   ├── dieter.zsh-theme
+│   │   ├── dogenpunk.zsh-theme
+│   │   ├── dpoggi.zsh-theme
+│   │   ├── dstufft.zsh-theme
+│   │   ├── dst.zsh-theme
+│   │   ├── duellj.zsh-theme
+│   │   ├── eastwood.zsh-theme
+│   │   ├── edvardm.zsh-theme
+│   │   ├── emotty.zsh-theme
+│   │   ├── essembeh.zsh-theme
+│   │   ├── evan.zsh-theme
+│   │   ├── fino-time.zsh-theme
+│   │   ├── fino.zsh-theme
+│   │   ├── fishy.zsh-theme
+│   │   ├── flazz.zsh-theme
+│   │   ├── fletcherm.zsh-theme
+│   │   ├── fox.zsh-theme
+│   │   ├── frisk.zsh-theme
+│   │   ├── frontcube.zsh-theme
+│   │   ├── funky.zsh-theme
+│   │   ├── fwalch.zsh-theme
+│   │   ├── gallifrey.zsh-theme
+│   │   ├── gallois.zsh-theme
+│   │   ├── garyblessington.zsh-theme
+│   │   ├── gentoo.zsh-theme
+│   │   ├── geoffgarside.zsh-theme
+│   │   ├── gianu.zsh-theme
+│   │   ├── gnzh.zsh-theme
+│   │   ├── gozilla.zsh-theme
+│   │   ├── half-life.zsh-theme
+│   │   ├── humza.zsh-theme
+│   │   ├── imajes.zsh-theme
+│   │   ├── intheloop.zsh-theme
+│   │   ├── itchy.zsh-theme
+│   │   ├── jaischeema.zsh-theme
+│   │   ├── jbergantine.zsh-theme
+│   │   ├── jispwoso.zsh-theme
+│   │   ├── jnrowe.zsh-theme
+│   │   ├── jonathan.zsh-theme
+│   │   ├── josh.zsh-theme
+│   │   ├── jreese.zsh-theme
+│   │   ├── jtriley.zsh-theme
+│   │   ├── juanghurtado.zsh-theme
+│   │   ├── junkfood.zsh-theme
+│   │   ├── kafeitu.zsh-theme
+│   │   ├── kardan.zsh-theme
+│   │   ├── kennethreitz.zsh-theme
+│   │   ├── kiwi.zsh-theme
+│   │   ├── kolo.zsh-theme
+│   │   ├── kphoen.zsh-theme
+│   │   ├── lambda.zsh-theme
+│   │   ├── linuxonly.zsh-theme
+│   │   ├── lukerandall.zsh-theme
+│   │   ├── macovsky-ruby.zsh-theme -> macovsky.zsh-theme
+│   │   ├── macovsky.zsh-theme
+│   │   ├── maran.zsh-theme
+│   │   ├── mgutz.zsh-theme
+│   │   ├── mh.zsh-theme
+│   │   ├── michelebologna.zsh-theme
+│   │   ├── mikeh.zsh-theme
+│   │   ├── miloshadzic.zsh-theme
+│   │   ├── minimal.zsh-theme
+│   │   ├── mira.zsh-theme
+│   │   ├── mlh.zsh-theme
+│   │   ├── mortalscumbag.zsh-theme
+│   │   ├── mrtazz.zsh-theme
+│   │   ├── murilasso.zsh-theme
+│   │   ├── muse.zsh-theme
+│   │   ├── nanotech.zsh-theme
+│   │   ├── nebirhos.zsh-theme
+│   │   ├── nicoulaj.zsh-theme
+│   │   ├── norm.zsh-theme
+│   │   ├── obraun.zsh-theme
+│   │   ├── oldgallois.zsh-theme
+│   │   ├── peepcode.zsh-theme
+│   │   ├── philips.zsh-theme
+│   │   ├── pmcgee.zsh-theme
+│   │   ├── pygmalion-virtualenv.zsh-theme
+│   │   ├── pygmalion.zsh-theme
+│   │   ├── random.zsh-theme
+│   │   ├── re5et.zsh-theme
+│   │   ├── refined.zsh-theme
+│   │   ├── rgm.zsh-theme
+│   │   ├── risto.zsh-theme
+│   │   ├── rixius.zsh-theme
+│   │   ├── rkj-repos.zsh-theme
+│   │   ├── rkj.zsh-theme
+│   │   ├── robbyrussell.zsh-theme
+│   │   ├── sammy.zsh-theme
+│   │   ├── simonoff.zsh-theme
+│   │   ├── simple.zsh-theme
+│   │   ├── skaro.zsh-theme
+│   │   ├── smt.zsh-theme
+│   │   ├── Soliah.zsh-theme
+│   │   ├── sonicradish.zsh-theme
+│   │   ├── sorin.zsh-theme
+│   │   ├── sporty_256.zsh-theme
+│   │   ├── steeef.zsh-theme
+│   │   ├── strug.zsh-theme
+│   │   ├── sunaku.zsh-theme
+│   │   ├── sunrise.zsh-theme
+│   │   ├── superjarin.zsh-theme
+│   │   ├── suvash.zsh-theme
+│   │   ├── takashiyoshida.zsh-theme
+│   │   ├── terminalparty.zsh-theme
+│   │   ├── theunraveler.zsh-theme
+│   │   ├── tjkirch_mod.zsh-theme
+│   │   ├── tjkirch.zsh-theme
+│   │   ├── tonotdo.zsh-theme
+│   │   ├── trapd00r.zsh-theme
+│   │   ├── wedisagree.zsh-theme
+│   │   ├── wezm+.zsh-theme
+│   │   ├── wezm.zsh-theme
+│   │   ├── wuffers.zsh-theme
+│   │   ├── xiong-chiamiov-plus.zsh-theme
+│   │   ├── xiong-chiamiov.zsh-theme
+│   │   ├── ys.zsh-theme
+│   │   └── zhann.zsh-theme
+│   └── tools
+│       ├── changelog.sh
+│       ├── check_for_upgrade.sh
+│       ├── install.sh
+│       ├── require_tool.sh
+│       ├── theme_chooser.sh
+│       ├── uninstall.sh
+│       └── upgrade.sh
+├── .p10k.zsh
+├── package-lock.json
+├── pegasus
+│   ├── LICENSE
+│   └── README.md
+├── pegasus_server_snapshot.log
+├── .pm2
+│   ├── dump.pm2
+│   ├── logs
+│   │   ├── wingman-error.log
+│   │   └── wingman-out.log
+│   ├── module_conf.json
+│   ├── modules
+│   ├── pids
+│   │   └── wingman-0.pid
+│   ├── pm2.log
+│   ├── pm2.pid
+│   ├── pub.sock
+│   ├── rpc.sock
+│   └── touch
+├── .redocly
+├── scripts
+│   └── setup-traefik.sh
+├── .ssh
+│   ├── authorized_keys
+│   ├── known_hosts
+│   └── known_hosts.old
+├── traefik
+│   ├── acme.json
+│   ├── certs
+│   ├── config
+│   │   ├── agent-api.yml
+│   │   └── dynamic.yml
+│   ├── .env
+│   ├── logs
+│   │   └── traefik.log
+│   └── traefik.yml
+├── traefik.tar.gz
+├── tree_snapshot.txt
+├── .zcompdump-vps3006413-5.8
+├── .zcompdump-vps3006413-5.8.zwc
+├── .zsh_aliases
+├── .zsh_history
+├── .zshrc
+├── .zshrc_aliases
+└── .zshrc.pre-oh-my-zsh
+
+416 directories, 287 files
+
+🧾 Uncommitted Changes:
+
+🧾 .gitignore Preview:
+(no .gitignore found)

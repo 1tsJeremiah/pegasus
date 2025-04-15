@@ -1,0 +1,850 @@
+.
+├── .bash_history
+├── .bashrc
+├── .cache
+│   ├── gitstatus
+│   │   └── gitstatusd-linux-x86_64
+│   ├── Homebrew
+│   │   ├── all_commands_list.txt
+│   │   ├── api
+│   │   ├── berkeley-db@5--5.3.28_1 -> downloads/8b5fb485cdbb78c808921aeee52f32eadf4dc239fa5c03df690e316a1f9f4021--berkeley-db@5--5.3.28_1.x86_64_linux.bottle.tar.gz
+│   │   ├── berkeley-db@5_bottle_manifest--5.3.28_1 -> downloads/17e4e0def00184b561c8a490b5c0813a7c4f5e1365eb2e927570786eb4e05e09--berkeley-db@5-5.3.28_1.bottle_manifest.json
+│   │   ├── binutils--2.44 -> downloads/7529d517aab4d0da6c8819e7b6beafd5f6b381cd367a49b0877eef2c3c5ceebf--binutils--2.44.x86_64_linux.bottle.tar.gz
+│   │   ├── binutils_bottle_manifest--2.44 -> downloads/8dec3c476e7ac40bbb8a32ba3c2bc58546b09de0fb300ffe32425e1100f62285--binutils-2.44.bottle_manifest.json
+│   │   ├── bootsnap
+│   │   ├── brotli--1.1.0 -> downloads/de1f7110122f5b55e40926acb433170fc8dd448835df96c57e577be6a9be2c93--brotli--1.1.0.x86_64_linux.bottle.2.tar.gz
+│   │   ├── brotli_bottle_manifest--1.1.0-2 -> downloads/72b36368116298518fd66e638dfbe8cb541d8db2d33e279683bbdb4b79c73e0d--brotli-1.1.0-2.bottle_manifest.json
+│   │   ├── bzip2--1.0.8 -> downloads/db074a718e02557eff8cf3cd1476e2fedc40d4ec894870c864b8251d75dec576--bzip2--1.0.8.x86_64_linux.bottle.2.tar.gz
+│   │   ├── bzip2_bottle_manifest--1.0.8-2 -> downloads/c1a79a32cc9082c99fc318e6b2596b8b1f6e99abacb32bcbe88f979e4be5e4ea--bzip2-1.0.8-2.bottle_manifest.json
+│   │   ├── ca-certificates--2025-02-25 -> downloads/50c52ec06796c09a75e7a9484e6db3205765a935a486322e3795612fd23b405e--ca-certificates--2025-02-25.all.bottle.tar.gz
+│   │   ├── ca-certificates_bottle_manifest--2025-02-25 -> downloads/6c1debb525d4dc6007afae4cd2b772105111632b22fc28506550f6dfe27c6d52--ca-certificates-2025-02-25.bottle_manifest.json
+│   │   ├── c-ares--1.34.4 -> downloads/e6fc427b175a2eec194ff9f476d83db233a359f602f9f1100b955d3539410390--c-ares--1.34.4.x86_64_linux.bottle.tar.gz
+│   │   ├── c-ares_bottle_manifest--1.34.4 -> downloads/ce18ea81ad6f8aa82ed3f311879deb7643a3d71e18776db6bc86995282d330f3--c-ares-1.34.4.bottle_manifest.json
+│   │   ├── .cleaned
+│   │   ├── cloudflared--2025.4.0 -> downloads/583037025409477e3ca125c94fffd6b86f9963cc79b781ec6d41f0ac592746b4--cloudflared--2025.4.0.x86_64_linux.bottle.tar.gz
+│   │   ├── cloudflared_bottle_manifest--2025.4.0 -> downloads/adf62a8d33941e08085616771105ec0902cecc8baad7072562cf9129164ac7a0--cloudflared-2025.4.0.bottle_manifest.json
+│   │   ├── conmon--2.1.13 -> downloads/f17836ef157bed5ab28d783405b882d8245b2baccb4ee5ebaa97d214b197e151--conmon--2.1.13.x86_64_linux.bottle.tar.gz
+│   │   ├── conmon_bottle_manifest--2.1.13 -> downloads/61ec1f870ab91c605e72f5d56779dbc5e0dd3b35facf5498ca5c002e58781022--conmon-2.1.13.bottle_manifest.json
+│   │   ├── crun--1.21 -> downloads/cea7b92603c91cfbcdc3f11590e62a27b91fe92924210ebd55b76de80a933340--crun--1.21.x86_64_linux.bottle.tar.gz
+│   │   ├── crun_bottle_manifest--1.21 -> downloads/bda36d11010273bd7cd948e657d3c9a38e7ff6673cde455b90fcbe93096c7db4--crun-1.21.bottle_manifest.json
+│   │   ├── dbus--1.16.2 -> downloads/f46834be223f4a6f48e36cf597b22923c6ebd5d505cdb27004522550f891a0bb--dbus--1.16.2.x86_64_linux.bottle.tar.gz
+│   │   ├── dbus_bottle_manifest--1.16.2 -> downloads/4d7addc05476f068c217c8e9d9c3a43fd366359d34bd4ad056d0de7568cd8847--dbus-1.16.2.bottle_manifest.json
+│   │   ├── downloads
+│   │   ├── expat--2.7.1 -> downloads/1cd4533cf9f103dc996be428c86ca73d5d12a25770a93ba4761aa6dfdc0014ad--expat--2.7.1.x86_64_linux.bottle.tar.gz
+│   │   ├── expat_bottle_manifest--2.7.1 -> downloads/09efb27f4cd66decc2e0f393e7f9292c729064e5c939cd8191f81fc000c3947a--expat-2.7.1.bottle_manifest.json
+│   │   ├── external_commands_list.txt
+│   │   ├── fuse-overlayfs--1.14 -> downloads/dc263ff323f987426014db4899b338dff811601655086a7ac3badd0dbe9d9cec--fuse-overlayfs--1.14.x86_64_linux.bottle.tar.gz
+│   │   ├── fuse-overlayfs_bottle_manifest--1.14 -> downloads/cdd1cd72e305310f95508d08329726b0412b6c3e065d2af2d99c726816356829--fuse-overlayfs-1.14.bottle_manifest.json
+│   │   ├── gcc--14.2.0_1 -> downloads/12d4890c33007f251344f5c841dc1f4a6c80884be5416057b0f68ea34dc2ccbe--gcc--14.2.0_1.x86_64_linux.bottle.tar.gz
+│   │   ├── gcc_bottle_manifest--14.2.0_1 -> downloads/cece94dbe926093c968a24f66b9a0172afe5cc2ef22253029bc591147237045b--gcc-14.2.0_1.bottle_manifest.json
+│   │   ├── gh--2.69.0 -> downloads/66a7e2338458e65635c80bf5374b424fa2e79a54bf8204751d446c7b7dd9a32e--gh--2.69.0.x86_64_linux.bottle.tar.gz
+│   │   ├── gh_bottle_manifest--2.69.0 -> downloads/4810dc0dac581131500b552513555a73865d00d4ed67c1f9fb48301f742dfe00--gh-2.69.0.bottle_manifest.json
+│   │   ├── glib--2.84.0_1 -> downloads/524655de861a570072839244b5e2506c3b55189cf47398b904fec45b31bc2589--glib--2.84.0_1.x86_64_linux.bottle.tar.gz
+│   │   ├── glib_bottle_manifest--2.84.0_1 -> downloads/009303c5c339a2ae99786aada07a6e21bebb085da46662362e010784ac155f29--glib-2.84.0_1.bottle_manifest.json
+│   │   ├── glibc--2.35_1 -> downloads/e6cc9d306d7d37c44548676fd04704474e982c4ea3b78ad608f3964fe974daa1--glibc--2.35_1.x86_64_linux.bottle.1.tar.gz
+│   │   ├── glibc_bottle_manifest--2.35_1-1 -> downloads/f08da6bd0cafa8ca3cf09e57938d04110660caca5021d38a9e30708728139a9e--glibc-2.35_1-1.bottle_manifest.json
+│   │   ├── gmp--6.3.0 -> downloads/c33d6941e09b97b6780d25231108e3ddd11f638829b2c50670223f42e0586657--gmp--6.3.0.x86_64_linux.bottle.tar.gz
+│   │   ├── gmp_bottle_manifest--6.3.0 -> downloads/70a72a71216843d66a953c06ff6337445ce9bc94fae9f0e301e2f59005274a8e--gmp-6.3.0.bottle_manifest.json
+│   │   ├── gnupg--2.4.7 -> downloads/ff131cc0a69c76aa0001893b132ef9f6cfa68e857affe65a89a988f99cf8616f--gnupg--2.4.7.x86_64_linux.bottle.tar.gz
+│   │   ├── gnupg_bottle_manifest--2.4.7 -> downloads/6c3ae00dad22ab427b2646a49159dc14299ac8f924e1557f98acc0f7f7500e48--gnupg-2.4.7.bottle_manifest.json
+│   │   ├── gnutls--3.8.9 -> downloads/1922453dab1b80b237b9eb87a42b6144f7442fb4e3b69d4bb045ca9bb5dd34e1--gnutls--3.8.9.x86_64_linux.bottle.tar.gz
+│   │   ├── gnutls_bottle_manifest--3.8.9 -> downloads/aa9854d92d160da79cf6db83ae63d51f5c7d13682658fa43a335e4108af40362--gnutls-3.8.9.bottle_manifest.json
+│   │   ├── gpgme--1.24.2 -> downloads/3dfa3f80299e99a256e3133792bc6e126f4840a552e98cb5ee8e6205824bfcfa--gpgme--1.24.2.x86_64_linux.bottle.tar.gz
+│   │   ├── gpgme_bottle_manifest--1.24.2 -> downloads/b27e679213b6f16659cc6b431f4d7c29bc643a317e9878028545379b1cf08ec0--gpgme-1.24.2.bottle_manifest.json
+│   │   ├── htop--3.4.0 -> downloads/5ac5fd9ad1786e9a817d9da0ae6e5051350c96cdd6b05fd3f748a2eca5994cf0--htop--3.4.0.x86_64_linux.bottle.tar.gz
+│   │   ├── htop_bottle_manifest--3.4.0 -> downloads/d50aae5a83c9086d7409dd11e458462109efb192e03f9b83c59e5027bd7bc785--htop-3.4.0.bottle_manifest.json
+│   │   ├── icu4c@77--77.1 -> downloads/87ebe086441affeeb02f36d6f9e4e227b732567c0d42bf310bea983aa32c02c3--icu4c@77--77.1.x86_64_linux.bottle.tar.gz
+│   │   ├── icu4c@77_bottle_manifest--77.1 -> downloads/35ec2c3adb94255ba47424a4334da9616d97e1ec6d59ed907b368535018bed0a--icu4c@77-77.1.bottle_manifest.json
+│   │   ├── isl--0.27 -> downloads/d73e6d64bbe79d212cb096ecb2e3d0625b384aa03e1bc0086de42d0deaff4be0--isl--0.27.x86_64_linux.bottle.tar.gz
+│   │   ├── isl_bottle_manifest--0.27 -> downloads/40b1c5526f95db33208143fa79887179e758121659d8877597f553e6e6188879--isl-0.27.bottle_manifest.json
+│   │   ├── libassuan--3.0.2 -> downloads/566339fb9d33a8effabccd1e1d35b4e48e4253ecc9c7b4b49366b5d6647329a5--libassuan--3.0.2.x86_64_linux.bottle.tar.gz
+│   │   ├── libassuan_bottle_manifest--3.0.2 -> downloads/0fcd4af28064aef7277b774e3698e36630214907b803972d6722ec02a47a59cd--libassuan-3.0.2.bottle_manifest.json
+│   │   ├── libcap--2.75 -> downloads/62aba502cc3ba4983a8d9e781e8a3971b25e3847690bc61076890148e784419c--libcap--2.75.x86_64_linux.bottle.tar.gz
+│   │   ├── libcap_bottle_manifest--2.75 -> downloads/9e355d809630508382ed2cd6bafde8a25ec36c9b5a772ab7d432380a94b9f700--libcap-2.75.bottle_manifest.json
+│   │   ├── libedit--20250104-3.1 -> downloads/a2c2e996af7cb55c0b1862606c2577f98a4a76c179e90a2ee63d8286d464bdf0--libedit--20250104-3.1.x86_64_linux.bottle.tar.gz
+│   │   ├── libedit_bottle_manifest--20250104-3.1 -> downloads/c47389791b85fce1d3f55d8913ff7a87524d458cd8a4bc1cf6f9c0093da6783a--libedit-20250104-3.1.bottle_manifest.json
+│   │   ├── libevent--2.1.12_1 -> downloads/694835ad258e8dc6e9758f34fd0f18013d7a61f2a6ac1ca0e481f652d80b086a--libevent--2.1.12_1.x86_64_linux.bottle.tar.gz
+│   │   ├── libevent_bottle_manifest--2.1.12_1 -> downloads/68b113f9ab63db45f4e1860de522ce2ca4fa081eb3c0d5c7d6005a35c3cf8d06--libevent-2.1.12_1.bottle_manifest.json
+│   │   ├── libffi--3.4.7 -> downloads/c3180c690278909304c1682f6647fcf969e8b79a9b273866f09a27b8120af854--libffi--3.4.7.x86_64_linux.bottle.tar.gz
+│   │   ├── libffi_bottle_manifest--3.4.7 -> downloads/0dbccb1792291b90549d4a508e1f8609410e50e9229ae89b6f303e9a93445c50--libffi-3.4.7.bottle_manifest.json
+│   │   ├── libfuse--3.16.2 -> downloads/8db9ea10b4a31d9d17780c8d5f95446a87f9ac55a68b2a61607eb1ee6ed4148f--libfuse--3.16.2.x86_64_linux.bottle.1.tar.gz
+│   │   ├── libfuse_bottle_manifest--3.16.2-1 -> downloads/0840386070969520e6072fe62f69f09c8a9d9875044904110a7b43725d431fdb--libfuse-3.16.2-1.bottle_manifest.json
+│   │   ├── libgcrypt--1.11.0 -> downloads/f28b7cd4ca2ec0e4159b36a325861642ff1937e0c4dc4857e043b790a334d51f--libgcrypt--1.11.0.x86_64_linux.bottle.tar.gz
+│   │   ├── libgcrypt_bottle_manifest--1.11.0 -> downloads/1a97cffc3d55ded961cbc89c68edd680c5b12b816a2fc19e30ff3f7cece070e6--libgcrypt-1.11.0.bottle_manifest.json
+│   │   ├── libgpg-error--1.51 -> downloads/843f3affa7d5abc07c6ece12a738a717586c6c5e5cda2e80d7722f25db551dc8--libgpg-error--1.51.x86_64_linux.bottle.tar.gz
+│   │   ├── libgpg-error_bottle_manifest--1.51 -> downloads/e7b7f2687086f9cee941cfee0b9d8c83d606b04d85698c55b10eb7a17d2c6bd2--libgpg-error-1.51.bottle_manifest.json
+│   │   ├── libidn2--2.3.8 -> downloads/1d46079e3bba21e9aa1150ac8ffa0deca721ec2b4d982656429c7de7448cf239--libidn2--2.3.8.x86_64_linux.bottle.tar.gz
+│   │   ├── libidn2_bottle_manifest--2.3.8 -> downloads/f30f50fbde4bff9a71de54d684e482d7da3432656d680b97441163c6e5665468--libidn2-2.3.8.bottle_manifest.json
+│   │   ├── libksba--1.6.7 -> downloads/c245126cd178b808d8d4b82f3bccf11da032e2c21d1776cdd56ba61824ef77a8--libksba--1.6.7.x86_64_linux.bottle.tar.gz
+│   │   ├── libksba_bottle_manifest--1.6.7 -> downloads/ecb8094d7fe13fc2fed0b4855e73ea116bf776cccef325e58e014fe31d962108--libksba-1.6.7.bottle_manifest.json
+│   │   ├── libmpc--1.3.1 -> downloads/6032341c169e7e85223d6088efc74e2443db4b533a330f19b40b2239df164080--libmpc--1.3.1.x86_64_linux.bottle.tar.gz
+│   │   ├── libmpc_bottle_manifest--1.3.1 -> downloads/fdfa98e0f8bb3ce075cb32776ac2345aa2f89252706c162aecfc841085fa76be--libmpc-1.3.1.bottle_manifest.json
+│   │   ├── libnghttp2--1.65.0 -> downloads/64166943773ab1134f76e8ca2e4283899fcd0e2dcb0f2d3bafd6aa5b43c9245f--libnghttp2--1.65.0.x86_64_linux.bottle.tar.gz
+│   │   ├── libnghttp2_bottle_manifest--1.65.0 -> downloads/5a72fb9f57dd728c5d6d30917849ae15111c3b440595f5694738ec9434c12427--libnghttp2-1.65.0.bottle_manifest.json
+│   │   ├── libseccomp--2.6.0 -> downloads/c82e47e739e82da22662da5edc888c01fb35537888ed710c36d028d30e1297a4--libseccomp--2.6.0.x86_64_linux.bottle.tar.gz
+│   │   ├── libseccomp_bottle_manifest--2.6.0 -> downloads/408d2470578e4db8b0537b6abf519443095939191a0b5ac952961688210a43a1--libseccomp-2.6.0.bottle_manifest.json
+│   │   ├── libsecret--0.21.7 -> downloads/7c58253995237e20ca568f00b60e91f7fac802fdded186c5851837e7c88c4322--libsecret--0.21.7.x86_64_linux.bottle.tar.gz
+│   │   ├── libsecret_bottle_manifest--0.21.7 -> downloads/a2bffbc34e1923b6fc91355f6f10539d39cc68749c70378d91eec2fc6c0c8460--libsecret-0.21.7.bottle_manifest.json
+│   │   ├── libslirp--4.9.0 -> downloads/78ef8c09475ac0d5184a02130af54e1ae12a0ba1501c08d46fe9648d75233fa4--libslirp--4.9.0.x86_64_linux.bottle.tar.gz
+│   │   ├── libslirp_bottle_manifest--4.9.0 -> downloads/92a50c9837514634f121597713ae41e715f90b06c3a42e69a02b64579f253922--libslirp-4.9.0.bottle_manifest.json
+│   │   ├── libtasn1--4.20.0 -> downloads/c8d00856f6b214e6176c79f10664bcf1201cf5c07de59546ad7fccbc689e0973--libtasn1--4.20.0.x86_64_linux.bottle.tar.gz
+│   │   ├── libtasn1_bottle_manifest--4.20.0 -> downloads/0d8e273dbfaade0247db22d4d5abf7e8d4d6c379f7912adc81c60e5d4418e8ca--libtasn1-4.20.0.bottle_manifest.json
+│   │   ├── libunistring--1.3 -> downloads/cbaaa212ee70ad2f103d4d907469e46a5afe158d92e9814fc8f5779003562393--libunistring--1.3.x86_64_linux.bottle.tar.gz
+│   │   ├── libunistring_bottle_manifest--1.3 -> downloads/a570da63bc1839c7e217f203abd54d4d873ebd6b99f6e88994d0e79e2ebe987c--libunistring-1.3.bottle_manifest.json
+│   │   ├── libusb--1.0.28 -> downloads/8d6c8cac24a4211369778126d1a70097b2734d60c2f81375c5334a917584ffcb--libusb--1.0.28.x86_64_linux.bottle.tar.gz
+│   │   ├── libusb_bottle_manifest--1.0.28 -> downloads/e0f27c147ac7d4b46b47319bf996fc7ce512af2095604632112d4e9bd085d102--libusb-1.0.28.bottle_manifest.json
+│   │   ├── libuv--1.50.0 -> downloads/8c7ebe0ab76638860842b91f30009d0a37280d174f985061b48945e26cde0483--libuv--1.50.0.x86_64_linux.bottle.tar.gz
+│   │   ├── libuv_bottle_manifest--1.50.0 -> downloads/ca8434864835c568bb3ff09b90797e9c2b745beacbd73320a6c22611a4fd1b56--libuv-1.50.0.bottle_manifest.json
+│   │   ├── libxcrypt--4.4.38 -> downloads/bdcd5a6a308eb0da47f8940193e86c9e43dfa0dd23f339acfa31afca352b91f3--libxcrypt--4.4.38.x86_64_linux.bottle.tar.gz
+│   │   ├── libxcrypt_bottle_manifest--4.4.38 -> downloads/dd32c4ad3dd310fa48e28a08ef353c651cfb65a327303d7684835f21a85a7a34--libxcrypt-4.4.38.bottle_manifest.json
+│   │   ├── libyaml--0.2.5 -> downloads/6d8da2dfa9eaac1786bfffa38f8973c7a7b5868e0eb7e975f28d824f98a8622c--libyaml--0.2.5.x86_64_linux.bottle.tar.gz
+│   │   ├── libyaml_bottle_manifest--0.2.5 -> downloads/5f6b0af1730aa1bc02f8021c90ed7ffe988eeba95eec83e6c828f77332ba6406--libyaml-0.2.5.bottle_manifest.json
+│   │   ├── linux-headers@5.15--5.15.179 -> downloads/8022939a221a06094c26e8f2269f74a5b9c243852dbe10e9b1a7440f3ca62967--linux-headers@5.15--5.15.179.x86_64_linux.bottle.tar.gz
+│   │   ├── linux-headers@5.15_bottle_manifest--5.15.179 -> downloads/dc07f5ce2affaa5b3e90307769f1252519602a46a819f28343df044c902fd7e6--linux-headers@5.15-5.15.179.bottle_manifest.json
+│   │   ├── lm-sensors--3.6.0 -> downloads/2a493f4cf26d1e8dd1013abc18499e7b4e9d957305baa3c7004d39a5661e34d6--lm-sensors--3.6.0.x86_64_linux.bottle.1.tar.gz
+│   │   ├── lm-sensors_bottle_manifest--3.6.0-1 -> downloads/ee9160ee30cb48961b4b39e4911669751b3576fcbb9160490ce8d788936ac855--lm-sensors-3.6.0-1.bottle_manifest.json
+│   │   ├── Logs
+│   │   ├── lz4--1.10.0 -> downloads/9f9a4f3ab3666cf0494b417bbdfd0017a2aa4c598fe4713e1346208757e8adb5--lz4--1.10.0.x86_64_linux.bottle.1.tar.gz
+│   │   ├── lz4_bottle_manifest--1.10.0-1 -> downloads/8e11e90eb21a06e0f199af9d80e011e3693c77dd353b2477579d95c8471a5802--lz4-1.10.0-1.bottle_manifest.json
+│   │   ├── mpdecimal--4.0.0 -> downloads/552459f21a529f9fd24fb3839a5816bc8359ba8418c89150b63261a3c44a57a4--mpdecimal--4.0.0.x86_64_linux.bottle.1.tar.gz
+│   │   ├── mpdecimal_bottle_manifest--4.0.0-1 -> downloads/7b63c3b34bee402290af49fac829a6682ab45ea5c9258b6fe03b590a03a4c4a9--mpdecimal-4.0.0-1.bottle_manifest.json
+│   │   ├── mpfr--4.2.2 -> downloads/2d7279d0ab8be5a3a2c2d7777156bcd7cc4d5f8167070a7fc16f1934eb2e927e--mpfr--4.2.2.x86_64_linux.bottle.tar.gz
+│   │   ├── mpfr_bottle_manifest--4.2.2 -> downloads/991b389ea6f1daa5dc48fd5250bcc5b85e827eb18b8ad4acd89419f2ace47d88--mpfr-4.2.2.bottle_manifest.json
+│   │   ├── ncurses--6.5 -> downloads/d997b5c8237c6a328f7994e79c20a06caf2547d6596a54945d6dd259761f8e8c--ncurses--6.5.x86_64_linux.bottle.tar.gz
+│   │   ├── ncurses_bottle_manifest--6.5 -> downloads/b2f8ce4e08b15832435170efd265346225ee388d5baab3d5c50e3a77c5673b5a--ncurses-6.5.bottle_manifest.json
+│   │   ├── nettle--3.10.1 -> downloads/31c68b0e55d98b345c166fc6821c254ed7291107a93824e618ce703641db50d5--nettle--3.10.1.x86_64_linux.bottle.tar.gz
+│   │   ├── nettle_bottle_manifest--3.10.1 -> downloads/3a897a4b5866bef2225eb637641c992e5903a0748ec913a0747a253dcee0c4d8--nettle-3.10.1.bottle_manifest.json
+│   │   ├── node--23.11.0 -> downloads/9709571c9fb52f0d22daf7e53981a04141ed22834ed316b323a667473084ccaf--node--23.11.0.x86_64_linux.bottle.tar.gz
+│   │   ├── node_bottle_manifest--23.11.0 -> downloads/7fd443f1bbabaaa9ce02e5c6e295a1bc5d65a47d5787de104fb694f10f1dfc10--node-23.11.0.bottle_manifest.json
+│   │   ├── npth--1.8 -> downloads/03f097765417691ea6043acfdf5f75816a68202bbdfdc149841190f4319a8147--npth--1.8.x86_64_linux.bottle.tar.gz
+│   │   ├── npth_bottle_manifest--1.8 -> downloads/4628473efb57fb8665d271a0d6c96c69b2d6ef2ce61fe0ac620c7efc2dbc7512--npth-1.8.bottle_manifest.json
+│   │   ├── openldap--2.6.9 -> downloads/0e7455e3051da189798c43625a84fffbcb9e733cef66620008dd8568f938a724--openldap--2.6.9.x86_64_linux.bottle.tar.gz
+│   │   ├── openldap_bottle_manifest--2.6.9 -> downloads/f46603cdf68c6900f27c1d843de6717b9d0801b262cf34ad53b240410adfd2f9--openldap-2.6.9.bottle_manifest.json
+│   │   ├── openssl@3--3.4.1 -> downloads/2e3e9f0b2d5a3f87d4a752fb2b32a31ebcb84aa56d4f4a22955d0eb6d4b2e1ad--openssl@3--3.4.1.x86_64_linux.bottle.tar.gz
+│   │   ├── openssl@3_bottle_manifest--3.4.1 -> downloads/a2bb8b71ebddb1fe8553581fcbc1ffc4ab36795c68b3cd47977cf83f1673a5b1--openssl@3-3.4.1.bottle_manifest.json
+│   │   ├── p11-kit--0.25.5 -> downloads/551e75226ae3035d7ba0db862605aa22fa27df41a23f8a951dbe9e5226d894e1--p11-kit--0.25.5.x86_64_linux.bottle.1.tar.gz
+│   │   ├── p11-kit_bottle_manifest--0.25.5-1 -> downloads/ba19311d6335b76681ee8e745af9980f80ad52d243a53066a21ead0d6d421a31--p11-kit-0.25.5-1.bottle_manifest.json
+│   │   ├── passt--2025_03_20.32f6212 -> downloads/f3c7a962bc04a1d8583395801406277416cc63e3fd39c31baaf9859d231bd0b6--passt--2025_03_20.32f6212.x86_64_linux.bottle.tar.gz
+│   │   ├── passt_bottle_manifest--2025_03_20.32f6212.32f6212 -> downloads/c78e5c50bd623967e322062097eed34ce051534b9a4c59eb09c1f1e62fe79246--passt-2025_03_20.32f6212.bottle_manifest.json
+│   │   ├── pcre2--10.45 -> downloads/5c882f175e0f18cb8fd9a5895bea23fc083891469301e3e7cef94f72f6d5e81d--pcre2--10.45.x86_64_linux.bottle.tar.gz
+│   │   ├── pcre2_bottle_manifest--10.45 -> downloads/bbac938545583185faba88567f1a952d7cc0b825820a2980533f7b3550dc31ad--pcre2-10.45.bottle_manifest.json
+│   │   ├── pinentry--1.3.1_1 -> downloads/73b387a83d33ea964fee3728ca5b4ab2fe6f7f493725e13e08d38f7a5bd4e02c--pinentry--1.3.1_1.x86_64_linux.bottle.tar.gz
+│   │   ├── pinentry_bottle_manifest--1.3.1_1 -> downloads/617908cf1b83df85f8782c945baac7ee7d9941c93a1e3a09d34ba82bacd91460--pinentry-1.3.1_1.bottle_manifest.json
+│   │   ├── podman--5.4.2 -> downloads/8f9798ad3531479a771e8dfd978c2219a8a70c44e022d3c909351089d36bf9fa--podman--5.4.2.x86_64_linux.bottle.tar.gz
+│   │   ├── podman_bottle_manifest--5.4.2 -> downloads/5e08f411bf27a230ed2e67ff22f3b4502a359019c455f00453f7e9ddf051d97e--podman-5.4.2.bottle_manifest.json
+│   │   ├── podman-compose--1.3.0 -> downloads/45463c57f82c7a06324002e9e9ce3f8ae4b096e7be6d31de8acd77b8821803c6--podman-compose--1.3.0.x86_64_linux.bottle.tar.gz
+│   │   ├── podman-compose_bottle_manifest--1.3.0 -> downloads/1d7ae5cfe2d26d3856b0cdeb9fa57f14f782d2f00e458108b2d2c4daf1e49266--podman-compose-1.3.0.bottle_manifest.json
+│   │   ├── portable-ruby-3.3.7.x86_64_linux.bottle.tar.gz
+│   │   ├── python@3.13--3.13.2 -> downloads/25abe549356c2889717acd4cc53f1f7f8569e4bbbe1eb35a8feb0d0ef2944081--python@3.13--3.13.2.x86_64_linux.bottle.tar.gz
+│   │   ├── python@3.13_bottle_manifest--3.13.2 -> downloads/ed88e7b3fd6fee101e6c569740db52ea7364a7e3d9092a35d8375795a39c2592--python@3.13-3.13.2.bottle_manifest.json
+│   │   ├── readline--8.2.13 -> downloads/dbb5ca9a3349929a62914957807b83c94af3f5f5703b6852ac65be862a743a3b--readline--8.2.13.x86_64_linux.bottle.tar.gz
+│   │   ├── readline_bottle_manifest--8.2.13 -> downloads/aa1afa38997a2866d91c81fdda8b36d436cd4ea7a82aed07d13c83c56eb3460e--readline-8.2.13.bottle_manifest.json
+│   │   ├── redocly-cli--1.34.1 -> downloads/e01b8b71f208f6ccd4444cd3e1bb93d871d29bb559e8ea33832d05db135c53c2--redocly-cli--1.34.1.x86_64_linux.bottle.tar.gz
+│   │   ├── redocly-cli_bottle_manifest--1.34.1 -> downloads/b5f428f6f15c07cc70acf8c81af436b9ce99488658eb4a2440f0eae050739eb3--redocly-cli-1.34.1.bottle_manifest.json
+│   │   ├── slirp4netns--1.3.2 -> downloads/c6aa74c9e38655883dc73032f45b53506c36f6eac8082d4f8bc976f9def9a1a7--slirp4netns--1.3.2.x86_64_linux.bottle.tar.gz
+│   │   ├── slirp4netns_bottle_manifest--1.3.2 -> downloads/7238afcc62a105d995462657f7fcbf8e56ae54576ab4aec85a3c23f045bd0335--slirp4netns-1.3.2.bottle_manifest.json
+│   │   ├── sqlite--3.49.1 -> downloads/3cf19b8dff777259f6f7b605f7b14e37e7a65776df925b829a422cca821b68b8--sqlite--3.49.1.x86_64_linux.bottle.tar.gz
+│   │   ├── sqlite_bottle_manifest--3.49.1 -> downloads/ce3cf24bf33f0eff2d169e046ba5da3ec75ab9fe0439e7b7face44f42e033fcb--sqlite-3.49.1.bottle_manifest.json
+│   │   ├── systemd--257.5 -> downloads/8d60fe45419d972c64c3bed91306b32e955a8070cf5ebb87fa59155ac95d3eb3--systemd--257.5.x86_64_linux.bottle.tar.gz
+│   │   ├── systemd_bottle_manifest--257.5 -> downloads/0aeee2b503caf29a5854b51250677b84ba55e8c210107f8b11a8f17b775ea0e7--systemd-257.5.bottle_manifest.json
+│   │   ├── traefik--3.3.5 -> downloads/559dd2244d64039ce7c3de829185abe91522456235e676b87921ce96fc6c80eb--traefik--3.3.5.x86_64_linux.bottle.tar.gz
+│   │   ├── traefik_bottle_manifest--3.3.5 -> downloads/9550ba96a1f3f292c1e085bd8bb673787ec774670153b62ddf286bbd7d5278ef--traefik-3.3.5.bottle_manifest.json
+│   │   ├── unbound--1.22.0 -> downloads/6a3f857c79a87d414a14dae7d67a28a8c2ee2132905f5072f67bba76b59413d3--unbound--1.22.0.x86_64_linux.bottle.tar.gz
+│   │   ├── unbound_bottle_manifest--1.22.0 -> downloads/94cb5ac77fe9ed3d8e9754f9abb482ea9c14403d0c80616f4f280ed4d7b69496--unbound-1.22.0.bottle_manifest.json
+│   │   ├── unzip--6.0_8 -> downloads/b21864e34ef4cb82ce78fcf50f8d91e7b3525e695b095c7d006c15cd802eefbb--unzip--6.0_8.x86_64_linux.bottle.tar.gz
+│   │   ├── unzip_bottle_manifest--6.0_8 -> downloads/b9a98c1a65dea38eb0bb5d9106a5758ed0ff17635811bd7f7cd6be5908c2961b--unzip-6.0_8.bottle_manifest.json
+│   │   ├── util-linux--2.40.4 -> downloads/57718da009f97fc39208d88f5d95f03a6e8a12d30c2d7e485de449830d11f12d--util-linux--2.40.4.x86_64_linux.bottle.tar.gz
+│   │   ├── util-linux_bottle_manifest--2.40.4 -> downloads/50d04b96178d21743010177c1318789d82f73a4a47fcd28bcce6367047c5f5be--util-linux-2.40.4.bottle_manifest.json
+│   │   ├── xz--5.8.1 -> downloads/8fd67f60eced36fed797e43e54a659afc9f6c8ca47d396d654a0c466439a8917--xz--5.8.1.x86_64_linux.bottle.tar.gz
+│   │   ├── xz_bottle_manifest--5.8.1 -> downloads/86a115cc1d43ff8a480fd907f812e70a403e1675d8a7223f61bbb08cbd2adc27--xz-5.8.1.bottle_manifest.json
+│   │   ├── yajl--2.1.0 -> downloads/c1f5386bd75772f2622c2787336a5d6ac5c77179fa86333d8edec92b9927d889--yajl--2.1.0.x86_64_linux.bottle.4.tar.gz
+│   │   ├── yajl_bottle_manifest--2.1.0-4 -> downloads/6c19b584087c1869262bcdc5b310e0b234ed5327c5795d54025b104d79fa40db--yajl-2.1.0-4.bottle_manifest.json
+│   │   ├── zlib--1.3.1 -> downloads/0f65e67e85eca98febdd779869ae039bfc78ad15b7e9e943d9108009525e691a--zlib--1.3.1.x86_64_linux.bottle.tar.gz
+│   │   ├── zlib_bottle_manifest--1.3.1 -> downloads/f68d0caf232d52f2aa586abefbbfd7e958e384d84f3967008fa83de94b5f10ae--zlib-1.3.1.bottle_manifest.json
+│   │   ├── zstd--1.5.7 -> downloads/b99cf3b62a7a74cbbf312affa2ef248bbd32f00978c592a8a43a9cecf9390ba4--zstd--1.5.7.x86_64_linux.bottle.tar.gz
+│   │   └── zstd_bottle_manifest--1.5.7 -> downloads/596a67b1677f62a8e24e6fdfa7c879891221cb8261242f4355fb4deff1a2ec39--zstd-1.5.7.bottle_manifest.json
+│   ├── p10k-dump-gptops.zsh
+│   ├── p10k-dump-gptops.zsh.zwc
+│   ├── p10k-gptops
+│   │   ├── prompt-12
+│   │   ├── prompt-19
+│   │   ├── prompt-20
+│   │   ├── prompt-47
+│   │   └── prompt-58
+│   ├── p10k-instant-prompt-gptops.zsh
+│   ├── p10k-instant-prompt-gptops.zsh.zwc
+│   └── pip
+│       ├── http
+│       ├── http-v2
+│       └── selfcheck
+├── .config
+│   ├── gh
+│   │   ├── config.yml
+│   │   └── hosts.yml
+│   ├── procps
+│   ├── simple-update-notifier
+│   │   └── nodemon.json
+│   └── systemd
+│       └── user
+├── .gitconfig
+├── gpt-api
+│   ├── 25.0.1
+│   ├── ecosystem.config.js
+│   ├── .env
+│   ├── gpt-actions-knowledge-base
+│   │   ├── actions
+│   │   ├── apis
+│   │   ├── deployment
+│   │   ├── Instructions.md
+│   │   ├── prompts
+│   │   ├── README.md
+│   │   ├── security
+│   │   ├── testing
+│   │   ├── utils
+│   │   └── wingman
+│   ├── gpt_agent.py
+│   ├── index.js
+│   ├── openapi.yaml
+│   ├── package.json
+│   ├── package-lock.json
+│   ├── test-server.js
+│   └── .venv
+│       ├── bin
+│       ├── .gitignore
+│       ├── include
+│       ├── lib
+│       ├── lib64 -> lib
+│       └── pyvenv.cfg
+├── .local
+│   ├── bin
+│   │   ├── distro
+│   │   ├── dotenv
+│   │   ├── httpx
+│   │   ├── markdown-it
+│   │   ├── openai
+│   │   ├── p10k -> /home/gptops/.oh-my-zsh/custom/themes/powerlevel10k/powerlevel10k.zsh-theme
+│   │   ├── pygmentize
+│   │   └── tqdm
+│   └── lib
+│       └── python3.9
+├── .npm
+│   ├── _cacache
+│   │   ├── content-v2
+│   │   ├── index-v5
+│   │   └── tmp
+│   ├── _logs
+│   │   ├── 2025-04-08T05_14_22_038Z-debug-0.log
+│   │   ├── 2025-04-08T05_15_16_986Z-debug-0.log
+│   │   ├── 2025-04-08T05_15_35_682Z-debug-0.log
+│   │   ├── 2025-04-08T06_30_58_346Z-debug-0.log
+│   │   ├── 2025-04-08T08_04_04_048Z-debug-0.log
+│   │   ├── 2025-04-10T07_56_43_931Z-debug-0.log
+│   │   ├── 2025-04-10T07_56_45_225Z-debug-0.log
+│   │   ├── 2025-04-10T08_15_49_785Z-debug-0.log
+│   │   ├── 2025-04-10T08_20_35_926Z-debug-0.log
+│   │   ├── 2025-04-10T08_22_29_920Z-debug-0.log
+│   │   └── 2025-04-10T08_23_11_242Z-debug-0.log
+│   ├── _npx
+│   │   └── 0989021c841cf7b6
+│   └── _update-notifier-last-checked
+├── .oh-my-zsh
+│   ├── cache
+│   │   ├── completions
+│   │   ├── .gitkeep
+│   │   ├── grep-alias
+│   │   └── .zsh-update
+│   ├── CODE_OF_CONDUCT.md
+│   ├── CONTRIBUTING.md
+│   ├── custom
+│   │   ├── example.zsh
+│   │   ├── plugins
+│   │   └── themes
+│   ├── .devcontainer
+│   │   └── devcontainer.json
+│   ├── .editorconfig
+│   ├── .github
+│   │   ├── CODEOWNERS
+│   │   ├── dependabot.yml
+│   │   ├── dependencies.yml
+│   │   ├── FUNDING.yml
+│   │   ├── ISSUE_TEMPLATE
+│   │   ├── PULL_REQUEST_TEMPLATE.md
+│   │   └── workflows
+│   ├── .gitignore
+│   ├── .gitpod.Dockerfile
+│   ├── .gitpod.yml
+│   ├── lib
+│   │   ├── async_prompt.zsh
+│   │   ├── bzr.zsh
+│   │   ├── clipboard.zsh
+│   │   ├── cli.zsh
+│   │   ├── compfix.zsh
+│   │   ├── completion.zsh
+│   │   ├── correction.zsh
+│   │   ├── diagnostics.zsh
+│   │   ├── directories.zsh
+│   │   ├── functions.zsh
+│   │   ├── git.zsh
+│   │   ├── grep.zsh
+│   │   ├── history.zsh
+│   │   ├── key-bindings.zsh
+│   │   ├── misc.zsh
+│   │   ├── nvm.zsh
+│   │   ├── prompt_info_functions.zsh
+│   │   ├── spectrum.zsh
+│   │   ├── termsupport.zsh
+│   │   ├── tests
+│   │   ├── theme-and-appearance.zsh
+│   │   └── vcs_info.zsh
+│   ├── LICENSE.txt
+│   ├── log
+│   │   └── .gitkeep
+│   ├── oh-my-zsh.sh
+│   ├── plugins
+│   │   ├── 1password
+│   │   ├── aliases
+│   │   ├── alias-finder
+│   │   ├── ansible
+│   │   ├── ant
+│   │   ├── apache2-macports
+│   │   ├── arcanist
+│   │   ├── archlinux
+│   │   ├── arduino-cli
+│   │   ├── argocd
+│   │   ├── asdf
+│   │   ├── autoenv
+│   │   ├── autojump
+│   │   ├── autopep8
+│   │   ├── aws
+│   │   ├── azure
+│   │   ├── battery
+│   │   ├── bazel
+│   │   ├── bbedit
+│   │   ├── bedtools
+│   │   ├── bgnotify
+│   │   ├── bower
+│   │   ├── branch
+│   │   ├── brew
+│   │   ├── bridgetown
+│   │   ├── buf
+│   │   ├── bun
+│   │   ├── bundler
+│   │   ├── cabal
+│   │   ├── cake
+│   │   ├── cakephp3
+│   │   ├── capistrano
+│   │   ├── cask
+│   │   ├── catimg
+│   │   ├── celery
+│   │   ├── charm
+│   │   ├── chezmoi
+│   │   ├── chruby
+│   │   ├── chucknorris
+│   │   ├── cloudfoundry
+│   │   ├── codeclimate
+│   │   ├── coffee
+│   │   ├── colemak
+│   │   ├── colored-man-pages
+│   │   ├── colorize
+│   │   ├── command-not-found
+│   │   ├── common-aliases
+│   │   ├── compleat
+│   │   ├── composer
+│   │   ├── conda
+│   │   ├── conda-env
+│   │   ├── copybuffer
+│   │   ├── copyfile
+│   │   ├── copypath
+│   │   ├── cp
+│   │   ├── cpanm
+│   │   ├── dash
+│   │   ├── dbt
+│   │   ├── debian
+│   │   ├── deno
+│   │   ├── dircycle
+│   │   ├── direnv
+│   │   ├── dirhistory
+│   │   ├── dirpersist
+│   │   ├── dnf
+│   │   ├── dnote
+│   │   ├── docker
+│   │   ├── docker-compose
+│   │   ├── doctl
+│   │   ├── dotenv
+│   │   ├── dotnet
+│   │   ├── droplr
+│   │   ├── drush
+│   │   ├── eecms
+│   │   ├── emacs
+│   │   ├── ember-cli
+│   │   ├── emoji
+│   │   ├── emoji-clock
+│   │   ├── emotty
+│   │   ├── encode64
+│   │   ├── extract
+│   │   ├── eza
+│   │   ├── fabric
+│   │   ├── fancy-ctrl-z
+│   │   ├── fasd
+│   │   ├── fastfile
+│   │   ├── fbterm
+│   │   ├── fig
+│   │   ├── firewalld
+│   │   ├── flutter
+│   │   ├── fluxcd
+│   │   ├── fnm
+│   │   ├── foot
+│   │   ├── forklift
+│   │   ├── fossil
+│   │   ├── frontend-search
+│   │   ├── fzf
+│   │   ├── gas
+│   │   ├── gatsby
+│   │   ├── gcloud
+│   │   ├── geeknote
+│   │   ├── gem
+│   │   ├── genpass
+│   │   ├── gh
+│   │   ├── git
+│   │   ├── git-auto-fetch
+│   │   ├── git-commit
+│   │   ├── git-escape-magic
+│   │   ├── git-extras
+│   │   ├── gitfast
+│   │   ├── git-flow
+│   │   ├── git-flow-avh
+│   │   ├── github
+│   │   ├── git-hubflow
+│   │   ├── gitignore
+│   │   ├── git-lfs
+│   │   ├── git-prompt
+│   │   ├── glassfish
+│   │   ├── globalias
+│   │   ├── gnu-utils
+│   │   ├── golang
+│   │   ├── gpg-agent
+│   │   ├── gradle
+│   │   ├── grails
+│   │   ├── grc
+│   │   ├── grunt
+│   │   ├── gulp
+│   │   ├── hanami
+│   │   ├── hasura
+│   │   ├── helm
+│   │   ├── heroku
+│   │   ├── heroku-alias
+│   │   ├── history
+│   │   ├── history-substring-search
+│   │   ├── hitchhiker
+│   │   ├── hitokoto
+│   │   ├── homestead
+│   │   ├── httpie
+│   │   ├── invoke
+│   │   ├── ionic
+│   │   ├── ipfs
+│   │   ├── isodate
+│   │   ├── istioctl
+│   │   ├── iterm2
+│   │   ├── jake-node
+│   │   ├── jenv
+│   │   ├── jfrog
+│   │   ├── jhbuild
+│   │   ├── jira
+│   │   ├── jj
+│   │   ├── jruby
+│   │   ├── jsontools
+│   │   ├── juju
+│   │   ├── jump
+│   │   ├── k9s
+│   │   ├── kate
+│   │   ├── keychain
+│   │   ├── kind
+│   │   ├── kitchen
+│   │   ├── kitty
+│   │   ├── kn
+│   │   ├── knife
+│   │   ├── knife_ssh
+│   │   ├── kops
+│   │   ├── kubectl
+│   │   ├── kubectx
+│   │   ├── kube-ps1
+│   │   ├── lando
+│   │   ├── laravel
+│   │   ├── laravel4
+│   │   ├── laravel5
+│   │   ├── last-working-dir
+│   │   ├── lein
+│   │   ├── lighthouse
+│   │   ├── localstack
+│   │   ├── lol
+│   │   ├── lpass
+│   │   ├── lxd
+│   │   ├── macos
+│   │   ├── macports
+│   │   ├── magic-enter
+│   │   ├── man
+│   │   ├── marked2
+│   │   ├── marktext
+│   │   ├── mercurial
+│   │   ├── meteor
+│   │   ├── microk8s
+│   │   ├── minikube
+│   │   ├── mise
+│   │   ├── mix
+│   │   ├── mix-fast
+│   │   ├── mongo-atlas
+│   │   ├── mongocli
+│   │   ├── mosh
+│   │   ├── multipass
+│   │   ├── mvn
+│   │   ├── mysql-macports
+│   │   ├── n98-magerun
+│   │   ├── nanoc
+│   │   ├── nats
+│   │   ├── ng
+│   │   ├── ngrok
+│   │   ├── nmap
+│   │   ├── node
+│   │   ├── nodenv
+│   │   ├── nomad
+│   │   ├── npm
+│   │   ├── nvm
+│   │   ├── oc
+│   │   ├── octozen
+│   │   ├── opentofu
+│   │   ├── operator-sdk
+│   │   ├── otp
+│   │   ├── pass
+│   │   ├── paver
+│   │   ├── pep8
+│   │   ├── percol
+│   │   ├── per-directory-history
+│   │   ├── perl
+│   │   ├── perms
+│   │   ├── phing
+│   │   ├── pip
+│   │   ├── pipenv
+│   │   ├── pj
+│   │   ├── please
+│   │   ├── pm2
+│   │   ├── pod
+│   │   ├── podman
+│   │   ├── poetry
+│   │   ├── poetry-env
+│   │   ├── postgres
+│   │   ├── pow
+│   │   ├── powder
+│   │   ├── powify
+│   │   ├── pre-commit
+│   │   ├── procs
+│   │   ├── profiles
+│   │   ├── pyenv
+│   │   ├── pylint
+│   │   ├── python
+│   │   ├── qodana
+│   │   ├── qrcode
+│   │   ├── rails
+│   │   ├── rake
+│   │   ├── rake-fast
+│   │   ├── rand-quote
+│   │   ├── rbenv
+│   │   ├── rbfu
+│   │   ├── rbw
+│   │   ├── rclone
+│   │   ├── react-native
+│   │   ├── rebar
+│   │   ├── redis-cli
+│   │   ├── repo
+│   │   ├── ros
+│   │   ├── rsync
+│   │   ├── ruby
+│   │   ├── rust
+│   │   ├── rvm
+│   │   ├── safe-paste
+│   │   ├── salt
+│   │   ├── samtools
+│   │   ├── sbt
+│   │   ├── scala
+│   │   ├── scd
+│   │   ├── screen
+│   │   ├── scw
+│   │   ├── sdk
+│   │   ├── sfdx
+│   │   ├── sfffe
+│   │   ├── shell-proxy
+│   │   ├── shrink-path
+│   │   ├── sigstore
+│   │   ├── singlechar
+│   │   ├── skaffold
+│   │   ├── snap
+│   │   ├── spring
+│   │   ├── sprunge
+│   │   ├── ssh
+│   │   ├── ssh-agent
+│   │   ├── stack
+│   │   ├── starship
+│   │   ├── stripe
+│   │   ├── sublime
+│   │   ├── sublime-merge
+│   │   ├── sudo
+│   │   ├── supervisor
+│   │   ├── suse
+│   │   ├── svcat
+│   │   ├── svn
+│   │   ├── svn-fast-info
+│   │   ├── swiftpm
+│   │   ├── symfony
+│   │   ├── symfony2
+│   │   ├── symfony6
+│   │   ├── systemadmin
+│   │   ├── systemd
+│   │   ├── tailscale
+│   │   ├── taskwarrior
+│   │   ├── terminitor
+│   │   ├── term_tab
+│   │   ├── terraform
+│   │   ├── textastic
+│   │   ├── textmate
+│   │   ├── thefuck
+│   │   ├── themes
+│   │   ├── thor
+│   │   ├── tig
+│   │   ├── timer
+│   │   ├── timoni
+│   │   ├── tldr
+│   │   ├── tmux
+│   │   ├── tmux-cssh
+│   │   ├── tmuxinator
+│   │   ├── toolbox
+│   │   ├── torrent
+│   │   ├── transfer
+│   │   ├── tugboat
+│   │   ├── ubuntu
+│   │   ├── ufw
+│   │   ├── universalarchive
+│   │   ├── urltools
+│   │   ├── uv
+│   │   ├── vagrant
+│   │   ├── vagrant-prompt
+│   │   ├── vault
+│   │   ├── vim-interaction
+│   │   ├── vi-mode
+│   │   ├── virtualenv
+│   │   ├── virtualenvwrapper
+│   │   ├── volta
+│   │   ├── vscode
+│   │   ├── vundle
+│   │   ├── wakeonlan
+│   │   ├── watson
+│   │   ├── wd
+│   │   ├── web-search
+│   │   ├── wp-cli
+│   │   ├── xcode
+│   │   ├── yarn
+│   │   ├── yii
+│   │   ├── yii2
+│   │   ├── yum
+│   │   ├── z
+│   │   ├── zbell
+│   │   ├── zeus
+│   │   ├── zoxide
+│   │   ├── zsh-interactive-cd
+│   │   └── zsh-navigation-tools
+│   ├── .prettierrc
+│   ├── README.md
+│   ├── SECURITY.md
+│   ├── templates
+│   │   ├── minimal.zshrc
+│   │   └── zshrc.zsh-template
+│   ├── themes
+│   │   ├── 3den.zsh-theme
+│   │   ├── adben.zsh-theme
+│   │   ├── af-magic.zsh-theme
+│   │   ├── afowler.zsh-theme
+│   │   ├── agnoster.zsh-theme
+│   │   ├── alanpeabody.zsh-theme
+│   │   ├── amuse.zsh-theme
+│   │   ├── apple.zsh-theme
+│   │   ├── arrow.zsh-theme
+│   │   ├── aussiegeek.zsh-theme
+│   │   ├── avit.zsh-theme
+│   │   ├── awesomepanda.zsh-theme
+│   │   ├── bira.zsh-theme
+│   │   ├── blinks.zsh-theme
+│   │   ├── bureau.zsh-theme
+│   │   ├── candy-kingdom.zsh-theme
+│   │   ├── candy.zsh-theme
+│   │   ├── clean.zsh-theme
+│   │   ├── cloud.zsh-theme
+│   │   ├── crcandy.zsh-theme
+│   │   ├── crunch.zsh-theme
+│   │   ├── cypher.zsh-theme
+│   │   ├── dallas.zsh-theme
+│   │   ├── darkblood.zsh-theme
+│   │   ├── daveverwer.zsh-theme
+│   │   ├── dieter.zsh-theme
+│   │   ├── dogenpunk.zsh-theme
+│   │   ├── dpoggi.zsh-theme
+│   │   ├── dstufft.zsh-theme
+│   │   ├── dst.zsh-theme
+│   │   ├── duellj.zsh-theme
+│   │   ├── eastwood.zsh-theme
+│   │   ├── edvardm.zsh-theme
+│   │   ├── emotty.zsh-theme
+│   │   ├── essembeh.zsh-theme
+│   │   ├── evan.zsh-theme
+│   │   ├── fino-time.zsh-theme
+│   │   ├── fino.zsh-theme
+│   │   ├── fishy.zsh-theme
+│   │   ├── flazz.zsh-theme
+│   │   ├── fletcherm.zsh-theme
+│   │   ├── fox.zsh-theme
+│   │   ├── frisk.zsh-theme
+│   │   ├── frontcube.zsh-theme
+│   │   ├── funky.zsh-theme
+│   │   ├── fwalch.zsh-theme
+│   │   ├── gallifrey.zsh-theme
+│   │   ├── gallois.zsh-theme
+│   │   ├── garyblessington.zsh-theme
+│   │   ├── gentoo.zsh-theme
+│   │   ├── geoffgarside.zsh-theme
+│   │   ├── gianu.zsh-theme
+│   │   ├── gnzh.zsh-theme
+│   │   ├── gozilla.zsh-theme
+│   │   ├── half-life.zsh-theme
+│   │   ├── humza.zsh-theme
+│   │   ├── imajes.zsh-theme
+│   │   ├── intheloop.zsh-theme
+│   │   ├── itchy.zsh-theme
+│   │   ├── jaischeema.zsh-theme
+│   │   ├── jbergantine.zsh-theme
+│   │   ├── jispwoso.zsh-theme
+│   │   ├── jnrowe.zsh-theme
+│   │   ├── jonathan.zsh-theme
+│   │   ├── josh.zsh-theme
+│   │   ├── jreese.zsh-theme
+│   │   ├── jtriley.zsh-theme
+│   │   ├── juanghurtado.zsh-theme
+│   │   ├── junkfood.zsh-theme
+│   │   ├── kafeitu.zsh-theme
+│   │   ├── kardan.zsh-theme
+│   │   ├── kennethreitz.zsh-theme
+│   │   ├── kiwi.zsh-theme
+│   │   ├── kolo.zsh-theme
+│   │   ├── kphoen.zsh-theme
+│   │   ├── lambda.zsh-theme
+│   │   ├── linuxonly.zsh-theme
+│   │   ├── lukerandall.zsh-theme
+│   │   ├── macovsky-ruby.zsh-theme -> macovsky.zsh-theme
+│   │   ├── macovsky.zsh-theme
+│   │   ├── maran.zsh-theme
+│   │   ├── mgutz.zsh-theme
+│   │   ├── mh.zsh-theme
+│   │   ├── michelebologna.zsh-theme
+│   │   ├── mikeh.zsh-theme
+│   │   ├── miloshadzic.zsh-theme
+│   │   ├── minimal.zsh-theme
+│   │   ├── mira.zsh-theme
+│   │   ├── mlh.zsh-theme
+│   │   ├── mortalscumbag.zsh-theme
+│   │   ├── mrtazz.zsh-theme
+│   │   ├── murilasso.zsh-theme
+│   │   ├── muse.zsh-theme
+│   │   ├── nanotech.zsh-theme
+│   │   ├── nebirhos.zsh-theme
+│   │   ├── nicoulaj.zsh-theme
+│   │   ├── norm.zsh-theme
+│   │   ├── obraun.zsh-theme
+│   │   ├── oldgallois.zsh-theme
+│   │   ├── peepcode.zsh-theme
+│   │   ├── philips.zsh-theme
+│   │   ├── pmcgee.zsh-theme
+│   │   ├── pygmalion-virtualenv.zsh-theme
+│   │   ├── pygmalion.zsh-theme
+│   │   ├── random.zsh-theme
+│   │   ├── re5et.zsh-theme
+│   │   ├── refined.zsh-theme
+│   │   ├── rgm.zsh-theme
+│   │   ├── risto.zsh-theme
+│   │   ├── rixius.zsh-theme
+│   │   ├── rkj-repos.zsh-theme
+│   │   ├── rkj.zsh-theme
+│   │   ├── robbyrussell.zsh-theme
+│   │   ├── sammy.zsh-theme
+│   │   ├── simonoff.zsh-theme
+│   │   ├── simple.zsh-theme
+│   │   ├── skaro.zsh-theme
+│   │   ├── smt.zsh-theme
+│   │   ├── Soliah.zsh-theme
+│   │   ├── sonicradish.zsh-theme
+│   │   ├── sorin.zsh-theme
+│   │   ├── sporty_256.zsh-theme
+│   │   ├── steeef.zsh-theme
+│   │   ├── strug.zsh-theme
+│   │   ├── sunaku.zsh-theme
+│   │   ├── sunrise.zsh-theme
+│   │   ├── superjarin.zsh-theme
+│   │   ├── suvash.zsh-theme
+│   │   ├── takashiyoshida.zsh-theme
+│   │   ├── terminalparty.zsh-theme
+│   │   ├── theunraveler.zsh-theme
+│   │   ├── tjkirch_mod.zsh-theme
+│   │   ├── tjkirch.zsh-theme
+│   │   ├── tonotdo.zsh-theme
+│   │   ├── trapd00r.zsh-theme
+│   │   ├── wedisagree.zsh-theme
+│   │   ├── wezm+.zsh-theme
+│   │   ├── wezm.zsh-theme
+│   │   ├── wuffers.zsh-theme
+│   │   ├── xiong-chiamiov-plus.zsh-theme
+│   │   ├── xiong-chiamiov.zsh-theme
+│   │   ├── ys.zsh-theme
+│   │   └── zhann.zsh-theme
+│   └── tools
+│       ├── changelog.sh
+│       ├── check_for_upgrade.sh
+│       ├── install.sh
+│       ├── require_tool.sh
+│       ├── theme_chooser.sh
+│       ├── uninstall.sh
+│       └── upgrade.sh
+├── .p10k.zsh
+├── package-lock.json
+├── pegasus
+│   ├── LICENSE
+│   └── README.md
+├── .pm2
+│   ├── dump.pm2
+│   ├── logs
+│   │   ├── wingman-error.log
+│   │   └── wingman-out.log
+│   ├── module_conf.json
+│   ├── modules
+│   ├── pids
+│   │   └── wingman-0.pid
+│   ├── pm2.log
+│   ├── pm2.pid
+│   ├── pub.sock
+│   ├── rpc.sock
+│   └── touch
+├── .redocly
+├── .ssh
+│   ├── known_hosts
+│   └── known_hosts.old
+├── traefik
+│   ├── acme.json
+│   ├── certs
+│   ├── config
+│   │   └── dynamic.yml
+│   ├── .env
+│   ├── logs
+│   │   └── traefik.log
+│   └── traefik.yml
+├── tree_snapshot.txt
+├── .zcompdump-vps3006413-5.8
+├── .zcompdump-vps3006413-5.8.zwc
+├── .zsh_history
+├── .zshrc
+└── .zshrc.pre-oh-my-zsh
+
+422 directories, 425 files
