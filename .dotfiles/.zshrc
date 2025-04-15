@@ -2,9 +2,6 @@
 alias edit='rsub -f'
 alias editconf='sudo rsub -f'
 
-# Add Linuxbrew to PATH
-eval "$(/home/linuxbrew/.linuxbrew/bin/brew shellenv)"
-
 # Powerlevel10k instant prompt
 if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]; then
   source "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh"
