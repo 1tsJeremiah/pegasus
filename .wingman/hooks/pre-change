@@ -1,0 +1,15 @@
+#!/bin/bash
+
+FROM="$1"
+TO="$2"
+PROJECT_DIR="\${3:-\$(pwd)}"
+LOG_PATH="\$PROJECT_DIR/.wingman/hook-debug.log"
+
+{
+  echo "=== [PRE-CHANGE HOOK STARTED] ==="
+  echo "FROM: \$FROM"
+  echo "TO: \$TO"
+  echo "PROJECT_DIR: \$PROJECT_DIR"
+  echo "PWD: \$(pwd)"
+  echo "Writing to: \$LOG_PATH"
+} >> "\$LOG_PATH"
