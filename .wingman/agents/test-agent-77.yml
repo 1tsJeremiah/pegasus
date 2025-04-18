@@ -1,0 +1,7 @@
+name: test-agent-77
+registered: 2025-04-17T20:54:46.661Z
+registered_by: auto
+last_ping: 2025-04-17T20:54:46.661Z
+phases:
+  - deploy
+  - verify
