@@ -1,3 +1,5 @@
 name: vps3006413
 registered: 2025-04-15T20:57:50.045Z
-last_ping: 2025-04-17T12:06:48.218Z
+last_ping: 2025-04-18T15:31:58.535Z
+phases:
+  - deploy
